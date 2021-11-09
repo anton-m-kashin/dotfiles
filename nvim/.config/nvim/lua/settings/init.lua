@@ -1,0 +1,7 @@
+require('settings.general')
+require('settings.keys')
+require('settings.lsp')
+require('settings.treesitter')
+require('settings.cmp')
+require('settings.sumneko')
+require('settings.lualine')
