@@ -30,11 +30,9 @@ vim.opt.foldenable = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
-vim.opt.backup = true
-vim.opt.backupdir = {
-    '~/.local/tmp/nvim/backup',
-    '/tmp'
-}
+vim.opt.backup = false
+vim.opt.writebackup = false
+
 vim.opt.directory = {
     '~/.local/tmp/nvim/swap',
     '/tmp'
