@@ -35,7 +35,6 @@ local servers = {
     'sourcekit',
     'rust_analyzer',
     'pyright',
-    'ltex'
 }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
@@ -43,3 +42,5 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
+
+require('settings.sumneko')
