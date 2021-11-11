@@ -28,4 +28,5 @@ require('packer').startup(function()
     use 'rafamadriz/neon'
     use 'vim-pandoc/vim-pandoc'
     use 'vim-pandoc/vim-pandoc-syntax'
+    use 'cespare/vim-toml'
 end)
