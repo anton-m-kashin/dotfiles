@@ -47,4 +47,6 @@ vim.opt.keymap = 'russian-jcukenmac'
 vim.opt.iminsert = 0
 vim.opt.imsearch = 0
 
+vim.opt.hidden = true
+
 vim.cmd[[colorscheme neon]]

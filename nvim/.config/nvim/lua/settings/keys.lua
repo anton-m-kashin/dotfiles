@@ -5,6 +5,9 @@ local noremap = { noremap = true }
 
 map('i', [[<C-\>]], [[<C-^>]], noremap) -- layout changed
 
+map('n', '<leader>n', ":bnext<CR>", noremap)
+map('n', '<leader>p', ":bprevious<CR>", noremap)
+
 map('n', '<leader>h', ':nohlsearch<CR>', noremap)
 map('n', '<leader>d', ':bdelete<CR>', noremap)
 
