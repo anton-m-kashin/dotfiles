@@ -6,7 +6,7 @@ vim.opt.cursorline = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
-vim.opt.spelllang = 'en,ru'
+vim.opt.spelllang = { 'en', 'ru' }
 vim.opt.complete:append('kspell')
 
 vim.o.completeopt = 'menuone,noselect'
