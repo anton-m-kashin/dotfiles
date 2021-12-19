@@ -30,4 +30,5 @@ require('packer').startup(function()
     use 'vim-pandoc/vim-pandoc-syntax'
     use 'cespare/vim-toml'
     use 'windwp/nvim-autopairs'
+    use 'numToStr/FTerm.nvim'
 end)
