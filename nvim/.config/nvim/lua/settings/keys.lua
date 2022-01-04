@@ -28,3 +28,6 @@ map(
     ':lua require("helpers.finders").find_in_dotfiles()<CR>',
     noremap
 )
+
+map('n', '<A-i>', '<CMD>lua require("FTerm").toggle()<CR>', { noremap = true, silent = true })
+map('t', '<A-i>', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>', { noremap = true, silent = true })
