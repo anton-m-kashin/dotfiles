@@ -36,6 +36,7 @@ source "${ZDOTDIR}/aliases.zsh"
 source "${ZDOTDIR}/prompt.zsh"
 source "${ZDOTDIR}/torrsel.zsh"
 source "${ZDOTDIR}/nvim.zsh"
+source "${ZDOTDIR}/platform.zsh"
 
 bindkey -e # emacs keybindings
 

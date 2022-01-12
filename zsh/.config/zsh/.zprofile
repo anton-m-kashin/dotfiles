@@ -1,3 +1,3 @@
 case "$(uname)" in
-    "Linux") source "$ZDOTDIR/linux/startx-if-needed.zsh" ;;
+    "Linux") source "$ZDOTDIR"/linux/profile/profile.zsh ;;
 esac
