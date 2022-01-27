@@ -34,9 +34,10 @@ zstyle ':completion:::::' completer _expand _complete _ignored _approximate # en
 
 source "${ZDOTDIR}/aliases.zsh"
 source "${ZDOTDIR}/prompt.zsh"
+source "${ZDOTDIR}/platform.zsh"
 source "${ZDOTDIR}/torrsel.zsh"
 source "${ZDOTDIR}/nvim.zsh"
-source "${ZDOTDIR}/platform.zsh"
+source "${ZDOTDIR}/mpcenv.zsh"
 
 bindkey -e # emacs keybindings
 
