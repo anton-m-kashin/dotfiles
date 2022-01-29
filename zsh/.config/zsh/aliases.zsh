@@ -12,3 +12,6 @@ alias df="df -h"
 
 command -v nnn >/dev/null 2>&1 \
     && alias nnn="source ~/.config/nnn/env.sh && GUI=1 nnn"
+
+command -v aria2c >/dev/null 2>&1 \
+    && alias dfc='aria2c "$(cbpaste)"'
