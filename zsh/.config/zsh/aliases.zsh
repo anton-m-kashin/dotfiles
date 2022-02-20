@@ -16,3 +16,7 @@ command -v nnn >/dev/null 2>&1 \
 
 command -v aria2c >/dev/null 2>&1 \
     && alias dfc='aria2c "$(cbpaste)"'
+
+command -v trans > /dev/null 2>&1 \
+    && ru() { trans :ru "$*" } \
+    && en() { trans :en "$*" }
