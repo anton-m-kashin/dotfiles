@@ -14,11 +14,13 @@ require('packer').startup(function()
     }
     use 'nvim-lualine/lualine.nvim'
     use 'rafamadriz/neon'
-    use 'vim-pandoc/vim-pandoc'
-    use 'vim-pandoc/vim-pandoc-syntax'
     use 'cespare/vim-toml'
     use 'windwp/nvim-autopairs'
     use 'numToStr/FTerm.nvim'
+    use {
+        'preservim/vim-markdown',
+        requires = { {'godlygeek/tabular'} }
+    }
 end)
 
 require('plugins.autopairs')
