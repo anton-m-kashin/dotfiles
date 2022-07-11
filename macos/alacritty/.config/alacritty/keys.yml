@@ -1,0 +1,77 @@
+key_bindings:
+    # Fix Control|Alt as Meta in macOS
+  - {key: A, mods: Control|Alt, chars: "\ea"}
+  - {key: B, mods: Control|Alt, chars: "\eb"}
+  - {key: C, mods: Control|Alt, chars: "\ec"}
+  - {key: D, mods: Control|Alt, chars: "\ed"}
+  - {key: E, mods: Control|Alt, chars: "\ee"}
+  - {key: F, mods: Control|Alt, chars: "\ef"}
+  - {key: G, mods: Control|Alt, chars: "\eg"}
+  - {key: H, mods: Control|Alt, chars: "\eh"}
+  - {key: I, mods: Control|Alt, chars: "\ei"}
+  - {key: J, mods: Control|Alt, chars: "\ej"}
+  - {key: K, mods: Control|Alt, chars: "\ek"}
+  - {key: L, mods: Control|Alt, chars: "\el"}
+  - {key: M, mods: Control|Alt, chars: "\em"}
+  - {key: N, mods: Control|Alt, chars: "\en"}
+  - {key: O, mods: Control|Alt, chars: "\eo"}
+  - {key: P, mods: Control|Alt, chars: "\ep"}
+  - {key: Q, mods: Control|Alt, chars: "\eq"}
+  - {key: R, mods: Control|Alt, chars: "\er"}
+  - {key: S, mods: Control|Alt, chars: "\es"}
+  - {key: T, mods: Control|Alt, chars: "\et"}
+  - {key: U, mods: Control|Alt, chars: "\eu"}
+  - {key: V, mods: Control|Alt, chars: "\ev"}
+  - {key: W, mods: Control|Alt, chars: "\ew"}
+  - {key: X, mods: Control|Alt, chars: "\ex"}
+  - {key: Y, mods: Control|Alt, chars: "\ey"}
+  - {key: Z, mods: Control|Alt, chars: "\ez"}
+  - {key: A, mods: Control|Alt|Shift, chars: "\eA"}
+  - {key: B, mods: Control|Alt|Shift, chars: "\eB"}
+  - {key: C, mods: Control|Alt|Shift, chars: "\eC"}
+  - {key: D, mods: Control|Alt|Shift, chars: "\eD"}
+  - {key: E, mods: Control|Alt|Shift, chars: "\eE"}
+  - {key: F, mods: Control|Alt|Shift, chars: "\eF"}
+  - {key: G, mods: Control|Alt|Shift, chars: "\eG"}
+  - {key: H, mods: Control|Alt|Shift, chars: "\eH"}
+  - {key: I, mods: Control|Alt|Shift, chars: "\eI"}
+  - {key: J, mods: Control|Alt|Shift, chars: "\eJ"}
+  - {key: K, mods: Control|Alt|Shift, chars: "\eK"}
+  - {key: L, mods: Control|Alt|Shift, chars: "\eL"}
+  - {key: M, mods: Control|Alt|Shift, chars: "\eM"}
+  - {key: N, mods: Control|Alt|Shift, chars: "\eN"}
+  - {key: O, mods: Control|Alt|Shift, chars: "\eO"}
+  - {key: P, mods: Control|Alt|Shift, chars: "\eP"}
+  - {key: Q, mods: Control|Alt|Shift, chars: "\eQ"}
+  - {key: R, mods: Control|Alt|Shift, chars: "\eR"}
+  - {key: S, mods: Control|Alt|Shift, chars: "\eS"}
+  - {key: T, mods: Control|Alt|Shift, chars: "\eT"}
+  - {key: U, mods: Control|Alt|Shift, chars: "\eU"}
+  - {key: V, mods: Control|Alt|Shift, chars: "\eV"}
+  - {key: W, mods: Control|Alt|Shift, chars: "\eW"}
+  - {key: X, mods: Control|Alt|Shift, chars: "\eX"}
+  - {key: Y, mods: Control|Alt|Shift, chars: "\eY"}
+  - {key: Z, mods: Control|Alt|Shift, chars: "\eZ"}
+  - {key: Key1, mods: Control|Alt, chars: "\e1"}
+  - {key: Key2, mods: Control|Alt, chars: "\e2"}
+  - {key: Key3, mods: Control|Alt, chars: "\e3"}
+  - {key: Key4, mods: Control|Alt, chars: "\e4"}
+  - {key: Key5, mods: Control|Alt, chars: "\e5"}
+  - {key: Key6, mods: Control|Alt, chars: "\e6"}
+  - {key: Key7, mods: Control|Alt, chars: "\e7"}
+  - {key: Key8, mods: Control|Alt, chars: "\e8"}
+  - {key: Key9, mods: Control|Alt, chars: "\e9"}
+  - {key: Key0, mods: Control|Alt, chars: "\e0"}
+  - {key: Space, mods: Control, chars: "\0"}                                  # Ctrl + Space
+  - {key: Grave, mods: Control|Alt, chars: "\e`"}                                     # Control|Alt + `
+  - {key: Grave, mods: Control|Alt|Shift, chars: "\e~"}                               # Control|Alt + ~
+  - {key: Period, mods: Control|Alt, chars: "\e."}                                    # Control|Alt + .
+  - {key: Key8, mods: Control|Alt|Shift, chars: "\e*"}                                # Control|Alt + *
+  - {key: Key3, mods: Control|Alt|Shift, chars: "\e#"}                                # Control|Alt + #
+  - {key: Period, mods: Control|Alt|Shift, chars: "\e>"}                              # Control|Alt + >
+  - {key: Comma, mods: Control|Alt|Shift, chars: "\e<"}                               # Control|Alt + <
+  - {key: Minus, mods: Control|Alt|Shift, chars: "\e_"}                               # Control|Alt + _
+  - {key: Key5, mods: Control|Alt|Shift, chars: "\e%"}                                # Control|Alt + %
+  - {key: Key6, mods: Control|Alt|Shift, chars: "\e^"}                                # Control|Alt + ^
+  - {key: Backslash, mods: Control|Alt, chars: "\e\\"}                                # Control|Alt + \
+  - {key: Backslash, mods: Control|Alt|Shift, chars: "\e|"}                           # Control|Alt + |
