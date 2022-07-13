@@ -1,0 +1,35 @@
+# Shell
+brew 'zsh'
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
+
+# Editor
+brew 'neovim'
+
+# Core utils
+brew 'bat'
+brew 'fd'
+brew 'fzf'
+brew 'git-delta'
+brew 'the_silver_searcher'
+
+# Tools
+brew 'imagemagick'
+brew 'mitmproxy'
+brew 'swiftlint'
+brew 'jq'
+brew 'aria2'
+brew 'pass'
+brew 'pandoc'
+brew 'xcinfo'
+
+# GPG
+brew 'gnupg'
+brew 'pinentry-mac'
+
+# Casks
+tap 'homebrew/cask'
+cask 'basictex'
+cask 'mpv'
+cask 'macfuse'
