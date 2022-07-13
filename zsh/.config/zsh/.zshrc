@@ -32,9 +32,9 @@ zstyle ':completion:*' menu select # select completions with arrow keys
 zstyle ':completion:*' group-name '' # group results by category
 zstyle ':completion:::::' completer _expand _complete _ignored _approximate # enable approximate matches for completion
 
+source "${ZDOTDIR}/platform.zsh"
 source "${ZDOTDIR}/aliases.zsh"
 source "${ZDOTDIR}/prompt.zsh"
-source "${ZDOTDIR}/platform.zsh"
 source "${ZDOTDIR}/torrsel.zsh"
 source "${ZDOTDIR}/nvim.zsh"
 source "${ZDOTDIR}/mpcenv.zsh"
@@ -50,10 +50,3 @@ bindkey '^x^e' edit-command-line
 
 command -v fasd > /dev/null \
     && eval "$(fasd --init auto)"
-
-FZF_COMPLETION_FILE="/usr/share/fzf/completion.zsh"
-[ -f "$FZF_COMPLETION_FILE" ] \
-    && source "$FZF_COMPLETION_FILE"
-FZF_KEYBINDINGS_FILE="/usr/share/fzf/key-bindings.zsh"
-[ -f "$FZF_KEYBINDINGS_FILE" ] \
-    && source "$FZF_KEYBINDINGS_FILE"
