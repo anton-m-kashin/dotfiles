@@ -39,6 +39,7 @@ source "${ZDOTDIR}/prompt.zsh"
 source "${ZDOTDIR}/torrsel.zsh"
 source "${ZDOTDIR}/nvim.zsh"
 source "${ZDOTDIR}/mpcenv.zsh"
+source "${ZDOTDIR}/man.zsh"
 
 bindkey -e # emacs keybindings
 
