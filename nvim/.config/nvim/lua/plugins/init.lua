@@ -21,6 +21,9 @@ require('packer').startup(function()
         'preservim/vim-markdown',
         requires = { {'godlygeek/tabular'} }
     }
+    use 'keith/swift.vim'
+    use 'ray-x/go.nvim'
+    use 'ray-x/guihua.lua'
 end)
 
 require('plugins.autopairs')
@@ -33,3 +36,4 @@ require('plugins.luasnip')
 require('plugins.pandoc')
 require('plugins.telescope')
 require('plugins.treesitter')
+require('plugins.go')
