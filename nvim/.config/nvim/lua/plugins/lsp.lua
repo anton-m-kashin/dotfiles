@@ -35,6 +35,7 @@ local servers = {
     'sourcekit',
     'rust_analyzer',
     'pyright',
+    'gopls'
 }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
