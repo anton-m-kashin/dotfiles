@@ -28,6 +28,7 @@ HISTSIZE=9999
 SAVEHIST=9999
 
 select-word-style bash
+WORDCHARS=${WORDCHARS//[\/]}
 _comp_options+=(globdots) # hidden files in autocomplete
 
 zstyle ':completion:*' menu select # select completions with arrow keys
