@@ -24,6 +24,7 @@ require('packer').startup(function()
     use 'keith/swift.vim'
     use 'ray-x/go.nvim'
     use 'ray-x/guihua.lua'
+    use 'gpanders/editorconfig.nvim'
 end)
 
 require('plugins.autopairs')
