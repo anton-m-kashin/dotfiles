@@ -1,0 +1,14 @@
+font:
+  normal:
+    family: JuliaMono
+    style: Light
+  bold:
+    family: JuliaMono
+    style: Medium
+  italic:
+    family: JuliaMono
+    style: LightItalic
+  bold_italic:
+    family: JuliaMono
+    style: MediumItalic
+  size: 12.0

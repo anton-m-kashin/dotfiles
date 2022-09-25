@@ -5,24 +5,11 @@ window:
     lines: 40
 scrolling:
   history: 100000
-font:
-  normal:
-    family: JuliaMono
-    style: Light
-  bold:
-    family: JuliaMono
-    style: Medium
-  italic:
-    family: JuliaMono
-    style: LightItalic
-  bold_italic:
-    family: JuliaMono
-    style: MediumItalic
-  size: 15.0
 cursor:
   style: Block
   unfocused_hollow: true
   vi_mode_style: Beam
 import:
+  - ~/.config/alacritty/font.yml
   - ~/.config/alacritty/keys.yml
   - ~/.config/alacritty/colors.yml
