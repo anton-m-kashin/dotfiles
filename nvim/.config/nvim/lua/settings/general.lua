@@ -54,4 +54,4 @@ vim.cmd[[colorscheme neon]]
 vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand('~') .. '/.local/share/nvim/undo'
 
-vim.opt.laststatus=3
+vim.opt.laststatus=2
