@@ -1,8 +1,8 @@
+autoload -Uz compinit && compinit # autocomplete
 source "${ZDOTDIR}/platform.zsh"
 
 fpath=("${ZDOTDIR}/completions" $fpath)
 autoload -U select-word-style
-autoload -Uz compinit && compinit # autocomplete
 autoload -U edit-command-line
 zmodload -i zsh/complist
 
