@@ -1,0 +1,20 @@
+# vim: set ft=muttrc
+
+bind pager j next-line
+bind pager k previous-line
+bind attach,index,pager \CD next-page
+bind attach,index,pager \CU previous-page
+bind pager g top
+bind pager G bottom
+bind attach,index g first-entry
+bind attach,index G last-entry
+macro index \CF "<vfolder-from-query>"
+bind index,pager + entire-thread
+bind index,pager X change-vfolder
+
+# Reply to all recipients
+bind index,pager R group-reply
+
+macro index,pager \CT '<enter-command>set pager_index_lines=7<enter>'
+macro index,pager \CH '<enter-command>set pager_index_lines=0<enter>'
+macro attach s <save-entry><bol>~/Downloads/attachments/<eol>

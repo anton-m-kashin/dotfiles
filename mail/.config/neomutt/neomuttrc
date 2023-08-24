@@ -1,0 +1,51 @@
+# Colors
+source ~/.config/neomutt/colors
+
+# Keybindigs
+source ~/.config/neomutt/keys
+
+# Contents
+set mailcap_path = ~/.config/neomutt/mailcap
+auto_view text/plain text/html
+alternative_order text/plain text/html text/enriched
+mime_lookup application/octet-stream
+
+set rfc2047_parameters=yes
+
+set header_cache=~/.cache/mutt
+
+set editor=~/.config/neomutt/editor.sh
+
+set query_command = "echo && notmuch address %s"
+set query_format = "%5c %t %a %n %?e?(%e)?"
+
+# URLs
+macro index,pager U "<pipe-message> urlscan -H -d<Enter>" "call urlscan to extract URLs out of a message"
+macro attach,compose U "<pipe-entry> urlscan -H -d<Enter>" "call urlscan to extract URLs out of a message"
+
+# View in browser
+macro attach B "<pipe-entry> ~/.config/neomutt/open-in-browser.sh<enter>"
+macro index,pager B "\
+<enter-command>set resolve=no<enter>\
+<clear-flag>N\
+<enter-command>set resolve<enter>\
+<view-attachments>\
+<search>html<enter>\
+<pipe-entry> ~/.config/neomutt/open-in-browser.sh<enter>\
+<exit>"
+
+# Misc
+set wait_key = no
+set move = no
+set charset = "utf-8"
+set sort = threads
+set sort_aux = last-date-received
+set read_inc = 1000
+
+set alias_file = "~/.config/neomutt/aliases"
+set sort_alias = alias
+set reverse_alias = yes
+source $alias_file
+
+# Mailboxes
+source ~/.config/neomutt/mailboxes
